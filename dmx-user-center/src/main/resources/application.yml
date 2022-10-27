@@ -1,0 +1,8 @@
+
+spring:
+   application:
+      name: dmx-user-center
+   profiles:
+      active: prod
+server:
+   port: 8900

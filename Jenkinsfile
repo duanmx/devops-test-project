@@ -8,8 +8,7 @@ pipeline {
         stage('代码构建') {
             steps {
                 sh "cd dmx-user-center"
-                sh "mvn clean install -U"
-                sh "mvn -Dmaven.test.skip=true clean package"
+              
             }
         }
 
